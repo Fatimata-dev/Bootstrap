@@ -9,7 +9,79 @@
 </head>
 <body>
     <h1>Bootstrap</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, iusto provident. Ab nam similique voluptatem sunt, minima nesciunt deserunt necessitatibus, delectus voluptatum rem sit magnam laborum, earum quisquam impedit doloremque.</p>
+
+  <section class="container">
+    <table class="table table-striped table-info table-bordered border-danger">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      <section class="container">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputname" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="inputname" placeholder="exemple" >
+            </div>
+            <div class="col-md-6">
+              <label for="inputLastnam" class="form-label">Prénom</label>
+              <input type="text" class="form-control" id="inputLastnam" placeholder="exemple">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="exemple@exemple.com">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword" class="form-label">Mot de passe</label>
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Adresse</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <!-- <div class="col-md-">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div> -->
+            <div class="col-md-6">
+              <label for="inputZip" class="form-label">Date de naissance</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+            </div>
+          </form>
+      </section>
+    </section>
+
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
